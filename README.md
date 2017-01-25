@@ -1,6 +1,8 @@
 # blue-button-group
 
-This README outlines the details of collaborating on this Ember addon.
+bg-button-group component with British Gas design 
+
+
 
 ## Installation
 
