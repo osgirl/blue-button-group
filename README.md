@@ -1,8 +1,13 @@
 # blue-button-group
 
-[bg-button-group](https://www.npmjs.com/package/bg-button-group) component with British Gas design 
+[bg-button-group](https://www.npmjs.com/package/bg-button-group) component with British Gas design
 
 ![screen shot 2017-01-25 at 16 43 09](https://cloud.githubusercontent.com/assets/3063496/22299928/c32b5f64-e31d-11e6-9105-bd481b12c595.png)
+
+There are 2 types regarding size, controlled by added "`medium`" css class.
+Other variety is the tick on the selected button, controller by 'with-check' class.
+
+Please check [io page](https://britishgas-engineering.github.io/blue-button-group/).
 
 
 ## Installation
