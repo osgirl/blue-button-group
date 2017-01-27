@@ -2,7 +2,13 @@
 
 [bg-button-group](https://www.npmjs.com/package/bg-button-group) component with British Gas design
 
+without tick
+
 ![screen shot 2017-01-25 at 16 43 09](https://cloud.githubusercontent.com/assets/3063496/22299928/c32b5f64-e31d-11e6-9105-bd481b12c595.png)
+
+with tick
+
+![screen shot 2017-01-27 at 10 27 26](https://cloud.githubusercontent.com/assets/3063496/22367785/421820c4-e47b-11e6-8603-194419035b66.png)
 
 There are 2 types regarding size, controlled by added "`medium`" css class.
 Other variety is the tick on the selected button, controller by 'with-check' class.
