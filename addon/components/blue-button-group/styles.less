@@ -3,7 +3,29 @@
     width: 200px;
   }
 }
+
+&.with-check {
+  button.btn {
+    &.active:after {
+      font: normal normal normal 14px/1 FontAwesome;
+      content: "\f00c";
+      display: block;
+      position: absolute;
+      top: 10px;
+      left: 15px;
+    }
+  }
+}
+&.medium.with-check {
+  button.btn {
+    &.active:after {
+      left: 10px;
+    }
+  }
+}
+
 button.btn {
+  position: relative;
   margin: 10px;
   padding: 5px 15px;
   border-radius: 5px;

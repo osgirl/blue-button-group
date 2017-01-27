@@ -1,3 +1,55 @@
-{{#blue-button-group as |bg|}}
-  {{#bg.button}}dsadsa{{/bg.button}}
+<div class="custom-bg-1 bgcss">
+  <h4>class="with-check medium"</h4>
+  {{#blue-button-group selectedValue="2" class="with-check medium" as |bg|}}
+    {{#bg.button value="1"}}first{{/bg.button}}
+    {{#bg.button value="2"}}other{{/bg.button}}
+    {{#bg.button value="3"}}Monthly Direct debit{{/bg.button}}
+    {{#bg.button value="4"}}Annual Direct Debit {{/bg.button}}
+  {{/blue-button-group}}
+
+    <pre>
+      &lcub;&lcub;#blue-button-group selectedValue="2" class="with-check medium" as |bg|}}
+        &lcub;&lcub;#bg.button value="1"}}first&lcub;&lcub;/bg.button}}
+        &lcub;&lcub;#bg.button value="2"}}other&lcub;&lcub;/bg.button}}
+        &lcub;&lcub;#bg.button value="3"}}Monthly Direct debit&lcub;&lcub;/bg.button}}
+        &lcub;&lcub;#bg.button value="4"}}Annual Direct Debit &lcub;&lcub;/bg.button}}
+      &lcub;&lcub;/blue-button-group}}
+    </pre>
+<hr />
+<h4>class="medium"</h4>
+  {{#blue-button-group selectedValue="2" class="medium" as |bg|}}
+    {{#bg.button value="1"}}first{{/bg.button}}
+    {{#bg.button value="2"}}other{{/bg.button}}
+    {{#bg.button value="3"}}Monthly Direct debit{{/bg.button}}
+    {{#bg.button value="4"}}Annual Direct Debit {{/bg.button}}
+  {{/blue-button-group}}
+  <pre>
+    &lcub;&lcub;#blue-button-group selectedValue="2" class="medium" as |bg|}}
+      &lcub;&lcub;#bg.button value="1"}}first&lcub;&lcub;/bg.button}}
+      &lcub;&lcub;#bg.button value="2"}}other&lcub;&lcub;/bg.button}}
+      &lcub;&lcub;#bg.button value="3"}}Monthly Direct debit&lcub;&lcub;/bg.button}}
+      &lcub;&lcub;#bg.button value="4"}}Annual Direct Debit &lcub;&lcub;/bg.button}}
+    &lcub;&lcub;/blue-button-group}}
+  </pre>
+<hr />
+<h4>class="with-check"</h4>
+{{#blue-button-group selectedValue="2" class="with-check" as |bg|}}
+  {{#bg.button value="1"}}£ 60{{/bg.button}}
+  {{#bg.button value="2"}}£ 0{{/bg.button}}
+  {{#bg.button value="3"}}£ 150{{/bg.button}}
 {{/blue-button-group}}
+<pre>
+  &lcub;&lcub;#blue-button-group selectedValue="2" class="with-check" as |bg|}}
+    &lcub;&lcub;#bg.button value="1"}}£ 60&lcub;&lcub;/bg.button}}
+    &lcub;&lcub;#bg.button value="2"}}£ 0&lcub;&lcub;/bg.button}}
+    &lcub;&lcub;#bg.button value="3"}}£ 150&lcub;&lcub;/bg.button}}
+  &lcub;&lcub;/blue-button-group}}
+</pre>
+<hr />
+<h4>class=""</h4>
+{{#blue-button-group selectedValue="2" as |bg|}}
+  {{#bg.button value="1"}}£ 60{{/bg.button}}
+  {{#bg.button value="2"}}£ 0{{/bg.button}}
+{{/blue-button-group}}
+
+</div>
