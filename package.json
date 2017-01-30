@@ -1,7 +1,7 @@
 {
   "name": "blue-button-group",
-  "version": "0.0.3",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.4",
+  "description": "British Gas style bg-button-group",
   "keywords": [
     "ember-addon"
   ],
